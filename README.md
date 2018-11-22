@@ -171,6 +171,7 @@ git log
 ```
 ## tag
 參考：
+</br >
 https://caloskao.org/git-tag-operations/
 </br >
 https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
@@ -204,6 +205,11 @@ git tag
 # 強制刪除本地分支
 > git branch -D [分支名稱(branch_name)]
 
+```
+## rebase
+參考：https://git-scm.com/book/zh-tw/v1/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E8%A1%8D%E5%90%88
+```
+git rebase [分支名稱(branch_name)]
 ```
 ## meage
 ```
