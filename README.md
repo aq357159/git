@@ -1,6 +1,5 @@
 # Git 基本指令
 
----------------------
 ## 基本說明
 ### origin(remote_name)
 - git預設遠端倉庫名稱
@@ -11,13 +10,12 @@
 ### .gitignore
 - 忽略 不需要上傳的檔案
 
----------------------------
 ## init
 ```
 # 建立 git 設定檔
 > git init
 ```
----------------------------
+
 ## remote
 ```
 # 查看目前所有的遠端倉庫
@@ -42,7 +40,7 @@
 > git remote rm [遠端倉庫名稱 or remote_name]
 
 ```
------------------------------
+
 ## clone 指令
 ```
 # 克隆(下載)檔案
@@ -174,6 +172,7 @@ git log
 ## tag
 參考：
 https://caloskao.org/git-tag-operations/
+</br >
 https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
 ```
 git tag
@@ -220,6 +219,4 @@ git meage [分支名稱 or branch_name]
 # 修改名稱
 > git mv [fileName] [new FileName]
 ```
-
--------------------------------
 參考：https://git-scm.com/book/zh/v2
